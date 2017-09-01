@@ -7,3 +7,5 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+const port = process.env.PORT || 3000;
